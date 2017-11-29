@@ -17,17 +17,17 @@ namespace Task_01
             bool inGrafick = false;
 
             Console.WriteLine("Please,write coordinate X");
-            x = double.Parse(Console.ReadLine());
+            x = double.Parse(Console.ReadLine());//todo pn может возникнуть исключение
             Console.WriteLine("Please,write coordinate Y");
-            y = double.Parse(Console.ReadLine());
-            Console.WriteLine("Please,write type of figure");
+            y = double.Parse(Console.ReadLine());//todo pn может возникнуть исключение
+			Console.WriteLine("Please,write type of figure");
             grafick = Console.ReadLine();
             double r;
             r = Math.Sqrt((x * x) + (y * y));
             switch (grafick)
             {
                 case "a":
-                    if (r <= 1)
+                    if (r <= 1)//todo pn бизнес-логику выносим в отдельные методы-классы. В методе Main должна быть только обработка пользовательских действий.
                     {
                        inGrafick = true;
                     }

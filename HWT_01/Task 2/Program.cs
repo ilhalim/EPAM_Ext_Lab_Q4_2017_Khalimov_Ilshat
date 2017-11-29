@@ -4,19 +4,19 @@
 namespace Task_02
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using System.Collections.Generic;//todo pn неиспользуемые using удаляем
+	using System.Linq;//todo pn неиспользуемые using удаляем
+	using System.Text;//todo pn неиспользуемые using удаляем
+	using System.Threading.Tasks;//todo pn неиспользуемые using удаляем
 
-    public class Program
+	public class Program
     {
         static void Main(string[] args)
         {
-            double h, a, b, c, discrim, x1, x2, temp1, temp2;
-            Console.WriteLine("Please, write number h ");
-            h = double.Parse(Console.ReadLine());
-            temp1 = Math.Abs(Math.Sin(8 * h) + 17);
+            double h, a, b, c, discrim, x1, x2, temp1, temp2;//todo pn бизнес-логику выносим в отдельные методы-классы. В методе Main должна быть только обработка пользовательских действий.
+			Console.WriteLine("Please, write number h ");
+            h = double.Parse(Console.ReadLine());//todo pn может возникнуть исключение
+			temp1 = Math.Abs(Math.Sin(8 * h) + 17);
             temp2 = 1 - (Math.Sin(4 * h) * Math.Cos(Math.Pow(h, 2) + 18));
             a = Math.Sqrt(temp1 / (temp2 * temp2));
             temp1 = Math.Tan(a * Math.Pow(h, 2));
