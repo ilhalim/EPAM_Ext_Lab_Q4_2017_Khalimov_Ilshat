@@ -1,0 +1,8 @@
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\Внешка\HWT_02\HWT_02\obj\Debug\Task_01.csprojResolveAssemblyReference.cache
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\Внешка\HWT_02\HWT_02\bin\Debug\HWT_02.exe.config
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\Внешка\HWT_02\HWT_02\bin\Debug\HWT_02.exe
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\Внешка\HWT_02\HWT_02\bin\Debug\HWT_02.pdb
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\Внешка\HWT_02\HWT_02\obj\Debug\HWT_02.exe
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\Внешка\HWT_02\HWT_02\obj\Debug\HWT_02.pdb
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\Внешка\HWT_02\Task_01\obj\Debug\HWT_02.exe
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\Внешка\HWT_02\Task_01\obj\Debug\HWT_02.pdb
