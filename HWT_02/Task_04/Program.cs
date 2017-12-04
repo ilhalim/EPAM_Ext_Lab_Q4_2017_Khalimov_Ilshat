@@ -22,8 +22,8 @@
                     {
                         if (treangle[j] == 1)
                         {
-                            Console.Write("*");
-                        }
+                            Console.Write("*");//todo pn хардкод
+						}
                         else
                         {
                             Console.Write(" ");

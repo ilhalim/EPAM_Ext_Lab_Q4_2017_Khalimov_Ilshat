@@ -9,30 +9,30 @@
             Console.Write("the label parameters:");
             if (txt[0])
             {
-                Console.Write("Bold ");
-            }
+                Console.Write("Bold ");//todo pn хардкод
+			}
 
             if (txt[1])
             {
-                Console.Write("Italic ");
-            }
+                Console.Write("Italic ");//todo pn хардкод
+			}
 
             if (txt[2])
             {
-                Console.Write("Underline ");
-            }
+                Console.Write("Underline ");//todo pn хардкод
+			}
 
             if ((!txt[0]) && (!txt[1]) && (!txt[2]))
             {
-                Console.Write("None");
-            }
+                Console.Write("None");//todo pn хардкод
+			}
 
             Console.WriteLine();
             Console.WriteLine("Write:");
-            Console.WriteLine("1:Bold");
-            Console.WriteLine("2:Italic");
-            Console.WriteLine("3:Underline");
-            int i = int.Parse(Console.ReadLine());
+            Console.WriteLine("1:Bold");//todo pn хардкод
+			Console.WriteLine("2:Italic");//todo pn хардкод
+			Console.WriteLine("3:Underline");//todo pn хардкод
+			int i = int.Parse(Console.ReadLine());
             if (txt[i - 1] == false)
             {
                 txt[i - 1] = true;
