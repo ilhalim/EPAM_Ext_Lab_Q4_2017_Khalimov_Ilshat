@@ -15,7 +15,7 @@
 
         public static void SortArray(int[] array)
         {
-            int temp; // временная переменная для сортировки
+            int temp; // временная переменная для сортировки //todo pn такое можно не подписывать и так понятно
             for (int i = 0; i < array.Length - 1; i++)
             {
                 for (int j = i + 1; j < array.Length; j++)

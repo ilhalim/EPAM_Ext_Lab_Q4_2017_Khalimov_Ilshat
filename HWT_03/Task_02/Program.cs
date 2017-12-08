@@ -4,8 +4,8 @@
 
     public class Program
     {
-        public static void PositiveToZero(int[,,] array, int numberofelements)
-        {            
+        public static void PositiveToZero(int[,,] array, int numberofelements)//todo pn дублирование кода
+		{            
             for (int i = 0; i < numberofelements; i++)
             {
                 for (int j = 0; j < numberofelements; j++)
@@ -21,8 +21,8 @@
             }                       
         }
         
-        public static void RandArray(int[,,] array, int numberofelements)
-        {
+        public static void RandArray(int[,,] array, int numberofelements)//todo pn дублирование кода
+		{
             Random randomize = new Random();
             for (int i = 0; i < numberofelements; i++)
             {
@@ -36,8 +36,8 @@
             }
         }
 
-        public static void PrintArray(int[,,] array, int numberofelements)
-        {
+        public static void PrintArray(int[,,] array, int numberofelements)//todo pn дублирование кода
+		{
             for (int i = 0; i < numberofelements; i++)
             {
                 for (int j = 0; j < numberofelements; j++)
