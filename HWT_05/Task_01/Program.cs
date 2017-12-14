@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class Circle
+    public class Circle //todo pn один файл - один класс
     {
         public double X;
         public double Y;

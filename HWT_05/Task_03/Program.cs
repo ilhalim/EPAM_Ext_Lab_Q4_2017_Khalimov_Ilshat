@@ -13,7 +13,7 @@
 
         public int Useryears(int year)
         {            
-            return year - this.Yearofbirth;
+            return year - this.Yearofbirth;//todo pn некорректная логика
         }        
     }
 

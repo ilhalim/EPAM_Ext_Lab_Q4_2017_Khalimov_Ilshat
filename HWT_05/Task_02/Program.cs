@@ -2,7 +2,7 @@
 {
     using System;
 
-public class Triangle
+public class Triangle //todo pn нет проверки, что можно собрать из этих сторон треугольник, нет проверки на положительность сторон
     {
         public int A;
         public int B;
