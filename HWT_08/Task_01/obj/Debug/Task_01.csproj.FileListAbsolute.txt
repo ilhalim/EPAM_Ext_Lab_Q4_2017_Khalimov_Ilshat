@@ -1,0 +1,6 @@
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\HWT_08\Task_01\bin\Debug\Task_01.exe.config
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\HWT_08\Task_01\bin\Debug\Task_01.exe
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\HWT_08\Task_01\bin\Debug\Task_01.pdb
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\HWT_08\Task_01\obj\Debug\Task_01.csprojResolveAssemblyReference.cache
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\HWT_08\Task_01\obj\Debug\Task_01.exe
+C:\Users\Ильшат\Documents\Visual Studio 2015\Projects\HWT_08\Task_01\obj\Debug\Task_01.pdb
