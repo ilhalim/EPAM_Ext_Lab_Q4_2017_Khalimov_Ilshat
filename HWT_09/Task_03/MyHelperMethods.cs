@@ -21,8 +21,8 @@
 
         public static void WritePositive(int[] numbers)
         {
-            Console.Write("The pisitive numbers: ");
-            for (int i = 0; i < numbers.Length; i++)
+            Console.Write("The pisitive numbers: ");//todo pn UI BL error
+			for (int i = 0; i < numbers.Length; i++)
             {
                 if (numbers[i].IsPosotive())
                 {

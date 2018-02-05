@@ -4,7 +4,7 @@
 
     public static class MyHelperMethods
     {
-        public static void MyWrite(string s)
+        public static void MyWrite(string s)//todo pn неправильная реализация разделения UI и BL. Нужно определять интерфейс. Всё это нужно для дальнейшего применения инверсии зависимостей через IoC контейнер.
         {
             Console.WriteLine(s);
         }

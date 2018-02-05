@@ -15,17 +15,17 @@
                 {
                     if (numberinstring.IsPositive())
                     {
-                        s = "Positive number";
-                    }
+                        s = "Positive number";//todo pn хардкод
+					}
                     else
                     {
-                        s = "Non-positive number";
-                    }
+                        s = "Non-positive number";//todo pn хардкод
+					}
                 }
                 else
                 {
-                    s = "not a number";
-                }
+                    s = "not a number";//todo pn хардкод
+				}
 
                 Console.WriteLine("The string is {0}", s);
                 Console.Write("For close program use button Escape(Esp): ");

@@ -19,7 +19,7 @@ using System.Linq;
             }
         }
 
-        public static void Main(string[] args)
+        public static void Main(string[] args)//todo pn запускаешь программу и попадаешь в матрицу. Ничего не понятно.
         {            
             int[] numbers = new int[1000];
             double miliseconds = 0;
