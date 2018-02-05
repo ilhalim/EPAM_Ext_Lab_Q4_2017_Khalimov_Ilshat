@@ -3,14 +3,14 @@
     using System;
     using System.Collections.Generic;
 
-   public class Program
+   public class Program//todo pn почему всё в одном классе?
     {
         public static void StringToList(string s, List<string> list)
         {
             int startindex = 0;
             for (int i = 0; i < s.Length; i++)
             {
-                if (char.IsSeparator(s[i]) || (s[i] == '.'))
+                if (char.IsSeparator(s[i]) || (s[i] == '.'))//todo pn точка является разделителем по умолчанию
                 {
                     list.Add(s.Substring(startindex, i - startindex));
                     startindex = i + 1;
@@ -24,7 +24,7 @@
         {
             for (int i = 0; i < words.Count; i++)
             {
-                Console.WriteLine("Word {0} : has {1} copies", words[i], numberodwords[i]);
+                Console.WriteLine("Word {0} : has {1} copies", words[i], numberodwords[i]);//todo pn смешение логики UI и BL
             }
         }
 

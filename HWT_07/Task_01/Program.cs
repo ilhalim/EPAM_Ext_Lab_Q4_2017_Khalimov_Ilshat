@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-   public class Program
-    {        
-        public static void FillRoundofPeople(List<int> roundofpeople, int numberofpeople)
+   public class Program //todo pn есть более простое решение задачи Иосифа, переделай
+	{  //todo pn почему всё в одном классе?      
+		public static void FillRoundofPeople(List<int> roundofpeople, int numberofpeople)
         {
             for (int i = 2; i <= numberofpeople; i++)
             {
