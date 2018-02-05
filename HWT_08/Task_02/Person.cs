@@ -33,23 +33,23 @@
             string greetontime;
             if (time <= 12)
             {
-                greetontime = "Good morning";
+                greetontime = "Good morning"; //todo pn хардкод
             }
             else if (time <= 17)
             {
-                greetontime = "Good day";
-            }
+                greetontime = "Good day"; //todo pn хардкод
+			}
             else
             {
-                greetontime = "Good evening";
-            }
+                greetontime = "Good evening"; //todo pn хардкод
+			}
 
-            Console.WriteLine("'{0}, {1}!',{2} said.", greetontime, anotherPerson, this.Name);
-        }
+            Console.WriteLine("'{0}, {1}!',{2} said.", greetontime, anotherPerson, this.Name); //todo pn хардкод
+		}
 
         public void Leave(string anotherPerson)
         {
-            Console.WriteLine("'Good bye, {0}!',{1} said.", anotherPerson, this.Name);
-        }
+            Console.WriteLine("'Good bye, {0}!',{1} said.", anotherPerson, this.Name); //todo pn хардкод
+		}
     }
 }

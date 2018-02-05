@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
 
-    public class Program
+    public class Program //todo pn всё в одном классе
         {
        public delegate void Sort(List<string> words, int num1, int num2);
 

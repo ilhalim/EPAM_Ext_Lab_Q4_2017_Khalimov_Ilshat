@@ -52,8 +52,8 @@
                 GoodBye goodByeByMary = new GoodBye(mary.Leave);
                 GoodBye goodByeByAnn = new GoodBye(ann.Leave);
                 GoodBye goodByeByAll = null;                
-                john.Came += Percon_Came;
-                john.OnCame(9);
+                john.Came += Percon_Came;//todo pn подписка на событие должна быть внутри класса Person. Собственно, как и реакции на события прихода/ухода. Переделать.
+				john.OnCame(9);
                 Creeting(john, greetByAll, 9);
                 greetByAll += greetByJohn;
                 goodByeByAll += goodByByJohn;
